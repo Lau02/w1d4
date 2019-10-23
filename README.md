@@ -1,6 +1,6 @@
 ![alt text](https://github.com/webmad1019-1/day3_advanced-selectors-positioning-full-layout/blob/master/img/logo2.png?raw "")
 
-# Yesterday - day 3
+# Yesterday - day w1d3
 
 * More on selectors
 * Absolute, relative, static, fixed positioning
@@ -9,7 +9,7 @@
 
 +Activities around flex
 
-# Today - day 4
+# Today - day w1d4
 
 * Review of Javascript - mostly prework
 * About js types
