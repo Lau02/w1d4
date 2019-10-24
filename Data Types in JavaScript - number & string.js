@@ -8,6 +8,9 @@
 
 // console.log(whatIsThis); // ==> NaN
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // console.log(2**5);
 // 2 * 2 * 2 * 2 * 2
 // => 32
@@ -34,7 +37,7 @@ Precedence	Operator	Name
 
 // let name = "Ana";
 // console.log(`Hello there, ${name}!`);
-// // ==> Hello there, Ana!
+// ==> Hello there, Ana!
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -84,7 +87,7 @@ Precedence	Operator	Name
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// console.log("Web Dev \nUX/UI");
+// console.log("Web Dev\nUX/UI");
 // console.log(`Web Dev
 // UX/UI`);
 
@@ -101,14 +104,14 @@ Precedence	Operator	Name
 
 // charAt(n) shows the character on the nth position in the string but keep in mind, the first character is indexed with zero (0).
 
-// const greeting = "Hello there!";
-// console.log(`"${greeting}" is a string and it's length is ${greeting.length}.`); 
-// // "Hello there!" is a string and it's length is 12.
-// console.log(greeting.charAt(0)); // <== H
-// console.log(greeting.charAt(1)) // <== e
-// console.log(greeting.charAt(5)); // <== " "
-// console.log(greeting.charAt(11)); // <== !
-// console.log(greeting.charAt(12)); // <== "" as an empty string
+const greeting = "Hello there!";
+console.log(`"${greeting}" is a string and it's length is ${greeting.length}.`); 
+// "Hello there!" is a string and it's length is 12.
+console.log(greeting.charAt(0)); // <== H
+console.log(greeting.charAt(1)) // <== e
+console.log(greeting.charAt(5)); // <== " "
+console.log(greeting.charAt(11)); // <== !
+console.log(greeting.charAt(12)); // <== "" as an empty string
 
 // const greeting = "Hello there!";
 // console.log(greeting[0]); // <== H
@@ -119,10 +122,10 @@ Precedence	Operator	Name
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 // const message = "Don't be sad, be happy!";
-// console.log(message.indexOf("Don't")); // <== 0
-// console.log(message.indexOf("t")); // <== 4
-// console.log(message.indexOf("Be")); // <== -1 (capitalized Be ≠ lowercased be)
-// console.log(message.indexOf("py")); // 20
+console.log(message.indexOf("Don't")); // <== 0
+console.log(message.indexOf("t")); // <== 4
+console.log(message.indexOf("Be")); // <== -1 (capitalized Be ≠ lowercased be)
+console.log(message.indexOf("py")); // 20
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 

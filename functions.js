@@ -4,6 +4,10 @@
 //     [return <expression>;]
 // }
 
+// function sum (s1, s2) {
+//     return s1 + s2
+// }
+// let output = sum(50, 100)
 /// //////////////////////////////////////////////////////////////////////////////////////////</expression>
 
 // // Function Declaration
@@ -52,6 +56,17 @@
 // // name = Lucy
 // // function will alert: "Hello Lucy!"
 
+
+// https://codeburst.io/parameters-arguments-in-javascript-eb1d8bd0ef04
+
+// function sum(s1, s2) {
+//     return s1 + s2
+// }
+
+// sum(10, 100)
+
+
+
 /// ///////////////////////////////////////////////////////////////////////////////////////
 
 // function sayHelloManyTimes(name, howManyTimes) {
@@ -88,18 +103,18 @@
 
 /// ////////////////////////////////////////////////////////////////////////////////////
 
-// function eatDinner(){
-//     setTimeout(function(){
-//       console.log("Eating the dinner 🍽");
-//     }, 1000)
-//   }
+function eatDinner(){
+    setTimeout(function(){
+      console.log("Eating the dinner 🍽");
+    }, 1000)
+  }
 
-//   function eatDessert(){
-//     console.log("Eating the dessert 🍰");
-//   }
+  function eatDessert(){
+    console.log("Eating the dessert 🍰");
+  }
 
-//   eatDinner();
-//   eatDessert();
+  eatDinner();
+  eatDessert();
 
 //   // the console:
 //   // Eating the dessert 🍰
@@ -135,6 +150,7 @@
 
 /// ///////////////////////////////////////////////////////////////////////////
 
+// tight coupling
 // function anotherFunction (text) {
 //   console.log(`Hello ${text}!`)
 // }
@@ -168,10 +184,10 @@
 
 // // anonymous
 // setTimeout(function () {
-//   console.log(
-//     "This is just an example of anonymous function since this function really doesn't have a name."
-//   )
-// }, 1000)
+//     console.log(
+//       "This is just an example of anonymous function since this function really doesn't have a name."
+//     )
+//   }, 1000)
 
 // // named
 // function someFunctionName () {
@@ -184,10 +200,10 @@
 
 /// /////////////////////////////////////////////////////////////////////
 
-// function doSomethingWithAFunction (name, functionToCall) {
-//   functionToCall(name)
-// }
-// // Anonymous Function
+function doSomethingWithAFunction (name, functionToCall) {
+  functionToCall(name)
+}
+// Anonymous Function
 // doSomethingWithAFunction('Ironhacker', function (someParameter) {
 //   console.log(`Hello ${someParameter}.`)
 // })
