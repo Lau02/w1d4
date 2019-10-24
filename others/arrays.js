@@ -10,6 +10,5 @@
 
 //////////////////////
 
-let grades = [10, 9, 10, 8]
-console.log(grades.reduce((cu, ac) => ac+cu, 0) / grades.length)
-
+let grades = [10, 9, 10, 8];
+console.log(grades.reduce((cu, ac) => ac + cu, 0) / grades.length);

@@ -1,6 +1,6 @@
 // you can run this code via node arrays2.js
 // let numbers = [1, 2, 3, 4, 5, 10, 10, 100];
-let coolStr = "ironhack"
+let coolStr = "ironhack";
 
 // numbers.shift()🦄
 // numbers.pop()
@@ -8,7 +8,7 @@ let coolStr = "ironhack"
 // numbers.pop()
 // numbers.pop()
 
-console.log(numbers)
+console.log(numbers);
 // let result = numbers.map(x => x * 2)
 // console.log(numbers);
 // console.log(result)
